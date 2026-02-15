@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Dairy Milk Silk Chocolate Bar",
+      "brand": "Cadbury",
+      "price": 444,
+      "originalPrice": 925,
+      "discount": 52,
+      "image": "CadburyProduct.png",
+      "images": [
+        "CadburyProduct.png",
+        "CadburyProduct.png",
+        "CadburyProduct.png",
+        "CadburyProduct.png",
+        "CadburyProduct.png"
+      ],
+      "weight": "64 g",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "options": [
+        {
+          "id": "opt1",
+          "name": "64g",
+          "price": 444
+        },
+        {
+          "id": "opt2",
+          "name": "128g",
+          "price": 850
+        }
+      ],
+      "inStock": true,
+      "category": "chocolate"
+    },
+    {
+      "id": "2",
+      "name": "Gold Premium Assam Tea Rich Taste & Irresistible",
+      "brand": "Tata Tea",
+      "price": 375,
+      "originalPrice": 550,
+      "discount": 32,
+      "image": "AssamTeaProduct.png",
+      "weight": "1 kg",
+      "description": "Premium quality Assam tea with rich taste",
+      "options": [
+        {
+          "id": "opt1",
+          "name": "500g",
+          "price": 195
+        },
+        {
+          "id": "opt2",
+          "name": "1 kg",
+          "price": 375
+        }
+      ],
+      "inStock": true,
+      "category": "beverages"
+    },
+    {
+      "id": "3",
+      "name": "Organic apple",
+      "brand": "Tata Tea",
+      "price": 199,
+      "originalPrice": 299,
+      "discount": 33,
+      "image": "AppleProduct.png",
+      "weight": "1 kg",
+      "description": "Fresh organic apples",
+      "inStock": true,
+      "category": "fruits"
+    },
+    {
+      "id": "4",
+      "name": "Premium Coffee Beans",
+      "brand": "Tata Tea",
+      "price": 649,
+      "originalPrice": 899,
+      "discount": 28,
+      "image": "PremiumCoffeeProduct.png",
+      "images": [
+        "PremiumCoffeeProduct.png",
+        "PremiumCoffeeProduct.png",
+        "PremiumCoffeeProduct.png",
+        "PremiumCoffeeProduct.png"
+      ],
+      "weight": "1 kg",
+      "description": "Arabica coffee beans",
+      "inStock": true,
+      "category": "beverages"
+    },
+    {
+      "id": "5",
+      "name": "Fresh Milk",
+      "brand": "Tata Tea",
+      "price": 68,
+      "originalPrice": 85,
+      "discount": 20,
+      "image": "MilkProduct.png",
+      "images": [
+        "MilkProduct.png",
+        "MilkProduct.png",
+        "MilkProduct.png",
+        "MilkProduct.png"
+      ],
+      "weight": "1 kg",
+      "description": "Fresh cow milk",
+      "inStock": true,
+      "category": "dairy"
+    }
+  ]
+}

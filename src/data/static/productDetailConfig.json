@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "type": "header",
+      "id": "header"
+    },
+    {
+      "type": "productImage",
+      "id": "productImage"
+    },
+    {
+      "type": "productInfo",
+      "id": "productInfo"
+    },
+    {
+      "type": "similarProducts",
+      "id": "similarProducts",
+      "title": "Similar products"
+    },
+    {
+      "type": "description",
+      "id": "description"
+    },
+    {
+      "type": "customersAlsoBought",
+      "id": "customersAlsoBought",
+      "title": "Customers also bought"
+    }
+  ],
+  "texts": {
+    "share": {
+      "template": "Check out {productName}{brand}! {price} - Buy now and get great deals!",
+      "brandPrefix": " by ",
+      "pricePrefix": "Only ₹",
+      "defaultMessage": "Buy now and get great deals!"
+    },
+    "buttons": {
+      "addToCart": "Add to cart",
+      "viewCart": "View cart",
+      "options": "{count} options",
+      "add": "Add",
+      "confirm": "Confirm"
+    },
+    "sections": {
+      "similarProducts": {
+        "title": "Similar products",
+        "defaultTitle": "Similar products"
+      },
+      "customersAlsoBought": {
+        "title": "Customers also bought",
+        "defaultTitle": "Customers also bought"
+      }
+    }
+  },
+  "options": {
+    "enableShare": true,
+    "enableProfileIcon": false,
+    "defaultProductId": "1"
+  }
+}

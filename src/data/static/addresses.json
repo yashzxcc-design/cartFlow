@@ -1,0 +1,40 @@
+{
+  "addresses": [
+    {
+      "id": "1",
+      "name": "Home",
+      "addressLine1": "Purna 10, Khara No 873",
+      "addressLine2": "Rpal Moha",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400001",
+      "phone": "+91 9876543210",
+      "isDefault": true,
+      "isServiceable": true
+    },
+    {
+      "id": "2",
+      "name": "Office",
+      "addressLine1": "123 Business Park",
+      "addressLine2": "Sector 5",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400002",
+      "phone": "+91 9876543210",
+      "isDefault": false,
+      "isServiceable": true
+    },
+    {
+      "id": "3",
+      "name": "Other",
+      "addressLine1": "456 Remote Area",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400999",
+      "phone": "+91 9876543210",
+      "isDefault": false,
+      "isServiceable": false
+    }
+  ]
+}
+

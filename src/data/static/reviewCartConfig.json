@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "emptyCart": {
+      "title": "Your cart is empty",
+      "button": {
+        "text": "Start Shopping",
+        "variant": "default",
+        "showArrow": false
+      }
+    },
+    "savingsBanner": {
+      "template": "You are saving ₹{amount} with this order!",
+      "enabled": true
+    },
+    "warningBanner": {
+      "text": "Your order might be delayed due to high demand",
+      "enabled": true,
+      "icon": "!"
+    },
+    "recommendedProducts": {
+      "title": "Did you forget?",
+      "enabled": true
+    },
+    "coupons": {
+      "title": "Top coupons for you",
+      "viewMore": {
+        "text": "View more coupons and offers",
+        "arrow": "→",
+        "enabled": true
+      },
+      "enabled": true
+    },
+    "couponSavingsBanner": {
+      "template": "You are saving ₹{savings} with this coupon",
+      "enabled": true
+    },
+    "cashback": {
+      "messages": {
+        "received": "Yay! You've received a cashback of ₹{amount}",
+        "needsMore": "Add items worth ₹{remaining} more to get {percentage}% cashback",
+        "willReceive": "You will get ₹{amount} cashback on this order"
+      },
+      "subtexts": {
+        "received": "The cashback will be added in your wallet",
+        "needsMore": "No coupon needed"
+      },
+      "icon": "💰",
+      "enabled": true
+    },
+    "deliveryInstructions": {
+      "enabled": true
+    },
+    "orderSummary": {
+      "enabled": true
+    },
+    "policy": {
+      "text": "You can cancel your order for free within the first 90 seconds. After that, a cancellation fee will apply.",
+      "enabled": true
+    }
+  },
+  "bottomBar": {
+    "login": {
+      "title": "Login to proceed",
+      "subtitle": "Log in or sign up to proceed with your order",
+      "button": {
+        "text": "Login",
+        "variant": "fullWidth",
+        "showArrow": false
+      }
+    },
+    "addAddress": {
+      "prompt": "Where would you like us to deliver?",
+      "button": {
+        "text": "Choose address",
+        "variant": "fullWidth",
+        "showArrow": false
+      }
+    },
+    "delivery": {
+      "timeTemplate": "Deliver in {time}",
+      "time": "30-60 mins",
+      "lightningIcon": "⚡",
+      "changeButton": "Change",
+      "serviceabilityWarning": "Location is not serviceable"
+    },
+    "payment": {
+      "label": "To Pay",
+      "proceedButton": {
+        "text": "Proceed",
+        "variant": "large",
+        "showArrow": false
+      }
+    }
+  },
+  "options": {
+    "defaultProductId": "1",
+    "enableAnimations": true,
+    "toastDuration": 3000
+  }
+}
+

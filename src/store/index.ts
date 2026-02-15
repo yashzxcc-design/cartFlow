@@ -1,0 +1,22 @@
+import { configureStore } from '@reduxjs/toolkit';
+import cartReducer from './slices/cartSlice';
+import authReducer from './slices/authSlice';
+import locationReducer from './slices/locationSlice';
+import productReducer from './slices/productSlice';
+
+export const store = configureStore({
+  reducer: {
+    cart: cartReducer,
+    auth: authReducer,
+    location: locationReducer,
+    product: productReducer,
+  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: false,
+    }),
+});
+
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;
+
